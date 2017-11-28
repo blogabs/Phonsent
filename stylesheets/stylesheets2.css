@@ -1,7 +1,7 @@
 @keyframes myfirst
 {
 0%   {background:red;left:0px;top:0px;}
-25%  {background:yellow;left:100%;top:0px;}
+25%  {background:yellow;left:100%;top:0px;border-radius:100%;}
 50%  {background:blue;left:100%;top:100%;}
 75%  {background:red; left:0px;top:100%;}
 100% {background:green;left:0px;top:0px;}
@@ -10,7 +10,7 @@
 @-moz-keyframes myfirst /* Firefox */
 {
 0%   {background:red;left:0px;top:0px;}
-25%  {background:yellow;left:100%;top:0px;}
+25%  {background:yellow;left:100%;top:0px;border-radius:100%;}
 50%  {background:blue;left:100%;top:100%;}
 75%  {background:red; left:0px;top:100%;}
 100% {background:green;left:0px;top:0px;}
@@ -19,7 +19,7 @@
 @-webkit-keyframes myfirst /* Safari and Chrome */
 {
 0%   {background:red;left:0px;top:0px;}
-25%  {background:yellow;left:100%;top:0px;}
+25%  {background:yellow;left:100%;top:0px;border-radius:100%;}
 50%  {background:blue;left:100%;top:100%;}
 75%  {background:red; left:0px;top:100%;}
 100% {background:green;left:0px;top:0px;}
@@ -28,7 +28,7 @@
 @-o-keyframes myfirst /* Opera */
 {
 0%   {background:red;left:0px;top:0px;}
-25%  {background:yellow;left:100%;top:0px;}
+25%  {background:yellow;left:100%;top:0px;border-radius:100%;}
 50%  {background:blue;left:100%;top:100%;}
 75%  {background:red; left:0px;top:100%;}
 100% {background:green;left:0px;top:0px;}
@@ -37,34 +37,38 @@
 {
   width:100px;
   height:100px;
-  border-radius:100%;
   position:relative;
   background:red;  
+  
   animation:myfirst 8s;
   animation-timing-function:linear;
 animation-delay:2s;
 animation-iteration-count:infinite;
 animation-direction:alternate;
-animation-play-state:running;
+animation-play-state:running;  
+  
+   /* Firefox */
   -moz-animation:myfirst 8s;
    -moz-animation-timing-function:linear;
 -moz-animation-delay:2s;
 -moz-animation-iteration-count:infinite;
 -moz-animation-direction:alternate;
 -moz-animation-play-state:running;
-  /* Firefox */
+  
+ /* Safari and Chrome */
 -webkit-animation:myfirst 8s; 
    -webkit-animation-timing-function:linear;
 -webkit-animation-delay:2s;
 -webkit-animation-iteration-count:infinite;
 -webkit-animation-direction:alternate;
 -webkit-animation-play-state:running;
-  /* Safari and Chrome */
+  
+  /* Opera */
 -o-animation:myfirst 8s; 
   -o-animation-timing-function:linear;
 -o-animation-delay:2s;
 -o-animation-iteration-count:infinite;
 -o-animation-direction:alternate;
 -o-animation-play-state:running; 
-  /* Opera */
+  
 }
