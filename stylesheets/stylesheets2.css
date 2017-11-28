@@ -46,7 +46,25 @@ animation-delay:2s;
 animation-iteration-count:infinite;
 animation-direction:alternate;
 animation-play-state:running;
-  -moz-animation:myfirst 8s; /* Firefox */
--webkit-animation:myfirst 8s; /* Safari and Chrome */
--o-animation:myfirst 8s; /* Opera */
+  -moz-animation:myfirst 8s;
+   -moz-animation-timing-function:linear;
+-moz-animation-delay:2s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:alternate;
+-moz-animation-play-state:running;
+  /* Firefox */
+-webkit-animation:myfirst 8s; 
+   -webkit-animation-timing-function:linear;
+-webkit-animation-delay:2s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+  /* Safari and Chrome */
+-o-animation:myfirst 8s; 
+  -o-animation-timing-function:linear;
+-o-animation-delay:2s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:alternate;
+-o-animation-play-state:running; 
+  /* Opera */
 }
