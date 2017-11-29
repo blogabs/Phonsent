@@ -2,7 +2,7 @@
 {
 0%   {background:red;left:0px;top:0px;}
 25%  {background:yellow;left:100px;top:0px;border-radius:100%;}
-50%  {background:blue;left:100px;top:100px;}
+50%  {background:blue;left:100px;top:50px;}
 75%  {background:red; left:0px;top:100px;}
 100% {background:green;left:0px;top:0px;}
 }
