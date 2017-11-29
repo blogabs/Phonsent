@@ -2,7 +2,7 @@
 {
 0%   {background:#FA8072;left:0px;top:0px;}
 25%  {background:#155799;left:100px;top:0px;border-radius:100%;}
-50%  {background:#FA8072;left:100px;top:100px;}
+50%  {background:transparent;left:100px;top:100px;}
 75%  {background:#155799; left:0px;top:100px;}
 100% {background:#FA8072;left:0px;top:0px;}
 }
@@ -11,7 +11,7 @@
 {
 0%   {background:#FA8072;left:0px;top:0px;}
 25%  {background:#155799;left:100px;top:0px;border-radius:100%;}
-50%  {background:#FA8072;left:100px;top:100px;}
+50%  {background:transparent;left:100px;top:100px;}
 75%  {background:#155799; left:0px;top:100px;}
 100% {background:#FA8072;left:0px;top:0px;}
 }
@@ -20,7 +20,7 @@
 {
 0%   {background:#FA8072;left:0px;top:0px;}
 25%  {background:#155799;left:100px;top:0px;border-radius:100%;}
-50%  {background:#FA8072;left:100px;top:100px;}
+50%  {background:transparent;left:100px;top:100px;}
 75%  {background:#155799; left:0px;top:100px;}
 100% {background:#FA8072;left:0px;top:0px;}
 }
@@ -28,9 +28,9 @@
 @-o-keyframes myfirst /* Opera */
 {
 0%   {background:#FA8072;left:0px;top:0px;}
-25%  {background:#FA8072;left:100px;top:0px;border-radius:100%;}
-50%  {background:#FA8072;left:100px;top:100px;}
-75%  {background:#FA8072; left:0px;top:100px;}
+25%  {background:#155799;left:100px;top:0px;border-radius:100%;}
+50%  {background:transparent;left:100px;top:100px;}
+75%  {background:#155799; left:0px;top:100px;}
 100% {background:#FA8072;left:0px;top:0px;}
 }
 .d2
