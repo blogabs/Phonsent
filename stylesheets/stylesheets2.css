@@ -73,8 +73,15 @@ animation-play-state:running;
   
 }
 
-.text-content.each-line{
-  width:0;overflow:hidden;white-space:nowrap;line-height:26px;animation:textshow 5s forwards;}
+.text-content
+{
+  width:0;
+  overflow:hidden;
+  white-space:nowrap;
+  line-height:26px;
+  animation:textshow 5s;
+}
+
 @keyframes textshow
 {
   0%{width:0%}
