@@ -77,6 +77,6 @@ animation-play-state:running;
   width:0;overflow:hidden;white-space:nowrap;line-height:26px;animation:textshow 5s forwards;}
 @keyframes textshow
 {
-  0%{width:100%}
-  100%{width:0%}
+  0%{width:0%}
+  100%{width:100%}
 }
