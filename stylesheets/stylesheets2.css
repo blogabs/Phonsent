@@ -76,6 +76,7 @@ animation-play-state:running;
 .text1
 {
   width:0;
+  color:#FA8072;
   white-space:nowrap;
   overflow:hidden;
   line-height:26px;
