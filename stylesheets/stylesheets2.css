@@ -95,6 +95,6 @@ animation-play-state:running;
 @keyframes textshow
 {
   0%{width:0%}
-  50%{width:50%；font-color:#FA8072;}
+  50%{width:50%；color:#FA8072;}
   100%{width:100%}
 }
