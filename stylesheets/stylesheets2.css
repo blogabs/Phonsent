@@ -81,7 +81,7 @@ animation-play-state:running;
   overflow:hidden;
   line-height:26px;
   animation:textshow 5s;
-  animation-play-state:running;
+  animation-iteration-count:infinite;
 }
 .text2
 {
@@ -92,7 +92,7 @@ animation-play-state:running;
   line-height:26px;
   animation:textshow 5s;
   animation-delay:2s;
-  animation-play-state:running;
+  animation-iteration-count:infinite;
 }
 .text3
 {
@@ -103,7 +103,7 @@ animation-play-state:running;
   line-height:26px;
   animation:textshow 5s;
   animation-delay:3s;
-  animation-play-state:running;
+ animation-iteration-count:infinite;
 }
   
 
