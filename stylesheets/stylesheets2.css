@@ -76,16 +76,16 @@ animation-play-state:running;
 .text1
 {
   width:0;
+  text-align:center;
   overflow:hidden;
-  white-space:nowrap;
   line-height:26px;
   animation:textshow 5s;
 }
 .text2
 {
   width:0;
+  text-align:center;
   overflow:hidden;
-  white-space:nowrap;
   line-height:26px;
   animation:textshow 6s;
   animation-delay:2s;
