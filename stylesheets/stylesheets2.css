@@ -73,14 +73,22 @@ animation-play-state:running;
   
 }
 
-.text-content
+.text1
 {
-  width:0;
   overflow:hidden;
   white-space:nowrap;
   line-height:26px;
   animation:textshow 5s;
 }
+.text2
+{
+  overflow:hidden;
+  white-space:nowrap;
+  line-height:26px;
+  animation:textshow 6s;
+  animation-delay:2s;
+}
+  
 
 @keyframes textshow
 {
