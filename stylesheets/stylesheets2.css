@@ -76,6 +76,7 @@ animation-play-state:running;
 .text1
 {
   width:0;
+  white-space:nowrap;
   overflow:hidden;
   line-height:26px;
   animation:textshow 5s;
@@ -83,9 +84,10 @@ animation-play-state:running;
 .text2
 {
   width:0;
+  white-space:nowrap;
   overflow:hidden;
   line-height:26px;
-  animation:textshow 6s;
+  animation:textshow 5s;
   animation-delay:2s;
 }
   
