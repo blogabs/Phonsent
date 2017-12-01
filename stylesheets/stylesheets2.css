@@ -81,26 +81,29 @@ animation-play-state:running;
   overflow:hidden;
   line-height:26px;
   animation:textshow 5s;
+  animation-play-state:running;
 }
 .text2
 {
-  width:0;
+  width:0px;
   color:#155799;
   white-space:nowrap;
   overflow:hidden;
   line-height:26px;
   animation:textshow 5s;
   animation-delay:2s;
+  animation-play-state:running;
 }
 .text3
 {
-  width:0;
+  width:0px;
   color:#FA8072;
   white-space:nowrap;
   overflow:hidden;
   line-height:26px;
   animation:textshow 5s;
   animation-delay:3s;
+  animation-play-state:running;
 }
   
 
