@@ -85,3 +85,16 @@ animation-play-state:running;
   animation-delay:2s;
   animation-iteration-count:infinite;
 }
+.text3
+{
+  animation:mytext 5s;
+  animation-delay:3s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes mytext
+{
+  0%{height:0px;color:tranparent;}
+  50%{height:30px;}
+  100%{height:50px;}
+}
