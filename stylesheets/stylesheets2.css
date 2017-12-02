@@ -87,7 +87,7 @@ animation-play-state:running;
   overflow:hidden;
   animation:mytext 5s;
   animation-delay:2s;
-  animation-iteration-count:infinite;
+ 
 }
 .text3
 {
@@ -95,7 +95,7 @@ animation-play-state:running;
   overflow:hidden;
   animation:mytext 5s;
   animation-delay:3s;
-  animation-iteration-count:infinite;
+ 
 }
 
 @keyframes mytext
