@@ -75,7 +75,7 @@ animation-play-state:running;
 
 .text1
 {
-  height:0;
+  width:0;
   overflow:hidden;
   animation:mytext 5s;
   animation-delay:1s;
@@ -83,7 +83,7 @@ animation-play-state:running;
 }
 .text2
 {
-  height:0;
+  width:0;
   overflow:hidden;
   animation:mytext 5s;
   animation-delay:2s;
@@ -91,7 +91,7 @@ animation-play-state:running;
 }
 .text3
 {
-  height:0;
+  width:0;
   overflow:hidden;
   animation:mytext 5s;
   animation-delay:3s;
