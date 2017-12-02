@@ -103,5 +103,5 @@ animation-play-state:running;
 @keyframes mytext
 {
   0%{height:0px;}  
-  100%{height:50px;}
+  100%{height:0px;}
 }
