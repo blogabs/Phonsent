@@ -110,6 +110,6 @@ animation-play-state:running;
 @keyframes textshow
 {
   0%{width:0%}
-  50%{width:50%}
+  50%{width:50%;bottom:50px;}
   100%{width:100%}
 }
