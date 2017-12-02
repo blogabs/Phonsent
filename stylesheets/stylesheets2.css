@@ -76,7 +76,7 @@ animation-play-state:running;
 .text1
 {
   height:0px;
-  color:#FA8072;
+  color:#FFFFFF;
   overflow:hidden;
   animation:mytext 8s;
   animation-delay:1s;
