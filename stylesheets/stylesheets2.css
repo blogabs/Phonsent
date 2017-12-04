@@ -113,16 +113,17 @@ animation-play-state:running;
 {
   width:100px;
   height:60px;
+  color:#ffffff;
   animation:contact 8s;
-  animation-delay:1s;
+  animation-delay:0s;
   animation-iteration-count:infinite;
 }
 .contact2
 {
-  width:120px;
+  width:200px;
   height:70px;
   animation:contact 10s;
-  animation-delay:2s;
+  animation-delay:0s;
   animation-iteration-count:infinite;
 }
 .contact3
