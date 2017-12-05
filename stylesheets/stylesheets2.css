@@ -148,15 +148,13 @@ animation-play-state:running;
 }
 
 .image123
-{
-  width:320px;
+{ 
   height:100%;
-  border-radius:100%;
   animation:image12 5s;
   animation-iteration-count:infinite;
 }
 @keyframes image12
 {
-  0%{height:0px;}
-  100%{height:100px;background:transparent;}
+  0%{height:0px;width:100%;border-radius:100%;}
+  100%{height:100px;width:0%;background:transparent;}
 }
