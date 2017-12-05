@@ -111,8 +111,8 @@ animation-play-state:running;
 
 .contact1
 {
-  width:100px;
-  height:60px;
+  width:0px;
+  height:80px;
   color:#ffffff;
   overflow:hidden;
   animation:contact 8s;
@@ -121,8 +121,8 @@ animation-play-state:running;
 }
 .contact2
 {
-  width:200px;
-  height:70px;
+  width:0px;
+  height:80px;
   color:#ffffff;
   overflow:hidden;
   animation:contact 10s;
