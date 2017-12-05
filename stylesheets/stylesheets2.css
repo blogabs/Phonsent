@@ -76,7 +76,7 @@ animation-play-state:running;
 .text1
 {
   
-  height:100px;
+  height:0px;
   color:#FFFFFF;
   overflow:hidden;
   animation:mytext 8s;
@@ -86,7 +86,7 @@ animation-play-state:running;
 .text2
 {
  
-  height:100px;
+  height:0px;
   color:#155799;
   overflow:hidden;
   animation:mytext 10s;
