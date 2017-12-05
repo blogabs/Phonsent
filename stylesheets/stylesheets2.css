@@ -147,16 +147,5 @@ animation-play-state:running;
   100%{width:100%;background:transparent;}
 }
 
-.iamge1
-{
-  width:100%;
-  animation:iamge 5s;
-  animation-iteration-count:infinite;
-}
 
-@keyframes image
-{
-  0%{width:100%}
-  100%{width:0%}
-}
 
