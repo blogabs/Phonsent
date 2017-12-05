@@ -140,7 +140,7 @@ animation-play-state:running;
 }
 @keyframes contact
 {
-  0%{width:100%;background:#FA8072;}
+  0%{width:0%;background:#FA8072;}
   50%{width:50%;background:#155799;}
-  100%{width:0%;background:transparent;}
+  100%{width:100%;background:transparent;}
 }
