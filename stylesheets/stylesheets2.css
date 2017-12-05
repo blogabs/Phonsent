@@ -147,5 +147,17 @@ animation-play-state:running;
   100%{width:100%;background:transparent;}
 }
 
-
+.feng1
+{
+  width:0px;
+  height:0px;
+  overflow:hidden;
+  animation:feng 8s;
+}
+@keyframes feng
+{
+  0%{width:100%;}
+  50%{width:0%;}
+  100%{width:100%;}
+}
 
