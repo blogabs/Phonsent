@@ -159,7 +159,8 @@ animation-play-state:running;
 @keyframes feng
 {
   0%{opacity:0;width:0;height:0;}
-  100%{opacity:1;width:320px;}
+  50%{opacity:1;width:320px;}
+  100%{opacity:0;width:600px;}
 }
 
 
