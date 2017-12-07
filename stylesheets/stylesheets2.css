@@ -160,7 +160,7 @@ animation-play-state:running;
 {
   0%{opacity:0;width:0;height:0;}
   50%{opacity:1;width:320px;}
-  100%{opacity:0;width:600px;}
+  100%{opacity:0;width:100%;}
 }
 
 
