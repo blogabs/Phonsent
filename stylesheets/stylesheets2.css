@@ -152,8 +152,8 @@ animation-play-state:running;
   width:220px;
   height:200px;
   border-radius:100%;
-  animation:feng 6s;
-  animation-fill-mode:forwards 10s;
+  animation:feng 12s;
+  animation-fill-mode:none;
   animation-iteration-count:infinite;
 }
 @keyframes feng
