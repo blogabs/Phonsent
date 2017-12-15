@@ -94,7 +94,7 @@ a {
 animation:name1 8s;
   animation-iteration-count:infinite;
 }
-@keyframs name1 {
+@keyframes name1 {
   0%{width:0%;}
   100%{width:100%;}
 }
