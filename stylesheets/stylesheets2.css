@@ -162,6 +162,16 @@ animation-play-state:running;
   50%{opacity:1;width:320px;}
   100%{opacity:0;width:100%;}
 }
+.textA {
+  color:#FA8072;
+  font-size:16px;
+  animation:textB 8s;
+  animation-iteration-count:infinite;
+}
+@keyframes textB {
+  0%{opacity:0}
+  100%{opacity:1}
+}
 
 
 
