@@ -119,8 +119,8 @@ animation:name2 8s;
   animation-iteration-count:infinite;
 }
 @keyframes name2 {
-  0%{width:0%;}
-  100%{width:100%;}
+  0%{height:0%;}
+  100%{height:100%;}
 }
 
 @media screen and (min-width: 64em) {
