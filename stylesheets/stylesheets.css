@@ -12,6 +12,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; 
+  transition:30s;
+  animation:body1 60s;
+  animation-iteration-count:infinite;
+    }
+  @keyframes body1 {
+    0%{width:0%;}
+    100%{width:100%}
+    }
+  body:hover
+    {
+      transform(360deg);
     }
 }
     
