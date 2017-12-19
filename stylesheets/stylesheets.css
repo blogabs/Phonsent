@@ -22,7 +22,7 @@ body {
     }
   body:hover
     {
-      transform(360deg);
+      transform:rotate(360deg);
     }
 }
     
