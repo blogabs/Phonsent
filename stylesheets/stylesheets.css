@@ -12,7 +12,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; 
-  transition:30s;
+  transition:10s;
   animation:body1 60s;
   animation-iteration-count:infinite;
     }
@@ -20,7 +20,7 @@ body {
     0%{width:0%;}
     100%{width:100%}
     }
-  body:hover
+  .body:hover
     {
       transform:rotate(360deg);
     }
