@@ -86,7 +86,6 @@ animation-play-state:running;
 .text3
 {
   height:0px;
-  color:#155799;
   overflow:hidden;
   animation:mytext 12s;
   animation-delay:3s;
@@ -125,6 +124,7 @@ animation-play-state:running;
 {
   width:80px;
   height:80px;
+  color:#ffffff;
   overflow:hidden;
   animation:contact 12s;
   animation-delay:3s;
