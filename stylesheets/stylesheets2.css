@@ -86,6 +86,7 @@ animation-play-state:running;
 .text3
 {
   height:0px;
+  color:#155799;
   overflow:hidden;
   animation:mytext 12s;
   animation-delay:3s;
