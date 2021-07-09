@@ -137,25 +137,6 @@ animation-play-state:running;
   100%{width:100%;background:transparent;}
 }
 
-.feng1
-{
-  width:220px;
-  height:200px;
-  border-radius:100%;
-  transition:3s;
-  animation:feng 12s;
-  animation-fill-mode:none;
-  animation-iteration-count:infinite;
-}
-.feng1:hover{
-  transform:rotate(360deg);
-}
-@keyframes feng
-{
-  0%{opacity:0;width:0;height:0;}
-  50%{opacity:1;width:320px;}
-  100%{opacity:0;width:100%;}
-}
 .textA {
   color:#FA8072;
   font-size:16px;
