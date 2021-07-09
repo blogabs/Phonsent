@@ -5,23 +5,6 @@
 
 }
 
-@-moz-keyframes myfirst /* Firefox */
-{
-0%   {background:#FA8072;left:0px;top:0px;}
-100%  {background:#155799;left:100px;top:0px;border-radius:100%;}
-}
-
-@-webkit-keyframes myfirst /* Safari and Chrome */
-{
-0%   {background:#FA8072;left:0px;top:0px;}
-100%  {background:#155799;left:100px;top:0px;border-radius:100%;}
-}
-
-@-o-keyframes myfirst /* Opera */
-{
-0%   {background:#FA8072;left:0px;top:0px;}
-100%  {background:#155799;left:100px;top:0px;border-radius:100%;}
-}
 .d2
 {
   width:68px;
@@ -36,32 +19,13 @@ animation-iteration-count:infinite;
 animation-direction:alternate;
 animation-play-state:running;  
   
-   /* Firefox */
-  -moz-animation:myfirst 8s;
-   -moz-animation-timing-function:linear;
--moz-animation-delay:2s;
--moz-animation-iteration-count:infinite;
--moz-animation-direction:alternate;
--moz-animation-play-state:running;
-  
- /* Safari and Chrome */
--webkit-animation:myfirst 8s; 
-   -webkit-animation-timing-function:linear;
--webkit-animation-delay:2s;
--webkit-animation-iteration-count:infinite;
--webkit-animation-direction:alternate;
--webkit-animation-play-state:running;
-  
-  /* Opera */
--o-animation:myfirst 8s; 
-  -o-animation-timing-function:linear;
--o-animation-delay:2s;
--o-animation-iteration-count:infinite;
--o-animation-direction:alternate;
--o-animation-play-state:running; 
-  
+@keyframes mytext
+{
+  0%{height:0px; width:100px;background:#FA8072;border-radius:100%;} 
+  50%{height:15px; width:100px;background:#155799;border-radius:100%;}
+  100%{height:30px;background:transparent;border-radius:100%;}
 }
-
+  
 .text1
 {
   
@@ -81,7 +45,7 @@ animation-play-state:running;
   animation:mytext 10s;
   animation-delay:2s;
   animation-iteration-count:infinite;
- 
+  
 }
 .text3
 {
@@ -90,16 +54,16 @@ animation-play-state:running;
   animation:mytext 12s;
   animation-delay:3s;
   animation-iteration-count:infinite;
- 
+  
 }
 
-@keyframes mytext
+@keyframes contact
 {
-  0%{height:0px; width:100px;background:#FA8072;border-radius:100%;} 
-  50%{height:15px; width:100px;background:#155799;border-radius:100%;}
-  100%{height:30px;background:transparent;border-radius:100%;}
+  0%{width:0%;background:#FA8072;}
+  50%{width:50%;background:#155799;}
+  100%{width:100%;background:transparent;}
 }
-
+  
 .contact1
 {
   width:0px;
@@ -130,23 +94,19 @@ animation-play-state:running;
   animation-delay:3s;
   animation-iteration-count:infinite;
 }
-@keyframes contact
-{
-  0%{width:0%;background:#FA8072;}
-  50%{width:50%;background:#155799;}
-  100%{width:100%;background:transparent;}
-}
 
+ @keyframes textB {
+  0%{opacity:0}
+  100%{opacity:1}
+}
+  
 .textA {
   color:#FA8072;
   font-size:16px;
   animation:textB 8s;
   animation-iteration-count:infinite;
 }
-@keyframes textB {
-  0%{opacity:0}
-  100%{opacity:1}
-}
+
 
 
 
