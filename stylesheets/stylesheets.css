@@ -99,6 +99,8 @@ animation:name1 8s;
   100%{opacity:1;}
 }
 
+
+
 @media screen and (min-width: 64em) {
   .project-name {
     font-size: 3.25rem; } }
@@ -176,6 +178,25 @@ animation:name2 8s;
   margin: 1rem 0;
   background-color: #eff0f1;
   border: 0; }
+
+.d2
+{
+  width:68px;
+  height:68px;
+  position:relative;
+  background:transparent;  
+  
+  animation:myfirst 8s;
+  animation-timing-function:linear;
+animation-delay:2s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-play-state:running;  
+  @-o-keyframes myfirst 
+{
+0%   {background:#FA8072;left:0px;top:0px;}
+100%  {background:#155799;left:100px;top:0px;border-radius:100%;}
+}
 
 @media screen and (min-width: 64em) {
   .main-content {
